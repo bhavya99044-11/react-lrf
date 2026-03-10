@@ -8,7 +8,7 @@ const Table = ({ headers = [], data = [], rowKey = "id" }) => {
   return (
     <div className="w-full bg-white">
       <div
-        className="grid bg-gray-200 rounded-xl px-6 py-3 text-sm font-semibold text-gray-700"
+        className="grid bg-gray-200 rounded-xl px-6 py-3 text-sm font-bold text-header-black"
         style={{ gridTemplateColumns: `repeat(${headers.length}, minmax(0, 1fr))` }}
       >
         {headers.map((header) => (

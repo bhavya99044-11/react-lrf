@@ -14,6 +14,7 @@ import Skeleton from "react-loading-skeleton";
 import Card from "@/components/dashboard/Card";
 import Table from "@/components/dashboard/Table";
 import { Select } from "@/components/common";
+import { monthOptions } from "../utils/constants";
 
 const options = {
   responsive: true,
@@ -113,7 +114,9 @@ const tableHeaders = [
     label: "Status",
     key: "status",
     render: (row) => (
-      <span className={`text-white text-xs px-4 py-1 rounded-full ${row.statusClassName}`}>
+      <span
+        className={`text-white text-xs px-4 py-1 rounded-full ${row.statusClassName}`}
+      >
         {row.status}
       </span>
     ),
@@ -131,7 +134,7 @@ const tableData = [
     amount: "$34,295",
     status: "Delivered",
     statusClassName: "bg-emerald-500",
-  }
+  },
 ];
 
 const Dashboard = () => {
@@ -149,9 +152,17 @@ const Dashboard = () => {
         ))}
       </div>
       <div className="mt-[30px]  rounded-[14px]  bg-white pt-[37px] pl-[32px] pb-[58px] pr-[32px]">
-        <span className="font-bold text-[24px] leading-[20px] ">
-          Sales Details
-        </span>
+        <div className="flex justify-between ">
+          <span className="font-bold text-[24px] leading-[20px] ">
+            Sales Details
+          </span>
+          <Select
+            className="text-sm"
+            options={monthOptions}
+            value={selectedMonth}
+            onChange={setSelectedMonth}
+          />
+        </div>
         <div className="mt-[51px] ">
           <ResponsiveContainer width="100%" height={300}>
             <AreaChart data={data}>
@@ -188,21 +199,7 @@ const Dashboard = () => {
           </span>
           <Select
             className="text-sm"
-            options={[
-              { name: "All months" },
-              { name: "January" },
-              { name: "February" },
-              { name: "March" },
-              { name: "April" },
-              { name: "May" },
-              { name: "June" },
-              { name: "July" },
-              { name: "August" },
-              { name: "September" },
-              { name: "October" },
-              { name: "November" },
-              { name: "December" },
-            ]}
+            options={monthOptions}
             value={selectedMonth}
             onChange={setSelectedMonth}
           />
