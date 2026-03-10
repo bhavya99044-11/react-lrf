@@ -67,7 +67,7 @@ const Header = () => {
   };
 
   return (
-    <div className="dark:bg-dark flex bg-white justify-between w-full">
+    <div className="dark:bg-dark sticky top-0 z-30 flex bg-white justify-between w-full">
       <div className="ml-[78px] my-4">
         {loading ? (
           <Skeleton width={388} height={30} />
@@ -85,7 +85,7 @@ const Header = () => {
         {loading ? (
           <Skeleton width={30} height={30} />
         ) : (
-          <div className="relative flex items-center justify-center">
+          <div className="relative flex cursor-pointer items-center justify-center">
             <IconComponent icon="bell" />
             <div className="absolute flex items-center justify-center h-[18px] -top-[8px] -right-[4px] w-[18px] rounded-full bg-[#F93C659C]">
               <span className="h-[14px] w-[14px] rounded-full text-sm flex items-center justify-center text-white bg-pink-500">
@@ -138,7 +138,7 @@ const Header = () => {
                 onClick={() => setIsDarkMode((prev) => !prev)}
                 className="flex w-full cursor-pointer items-center justify-between rounded-md px-3 py-2 text-sm text-[#111827] hover:bg-[#F3F4F6]"
               >
-                <span>{isDarkMode ? "Disable Dark Mode" : "Enable Dark Mode"}</span>
+                <span>Dark Mode</span>
                 <span
                   className={`h-2.5 w-2.5 rounded-full ${isDarkMode ? "bg-green-500" : "bg-gray-400"}`}
                 ></span>

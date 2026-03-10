@@ -8,7 +8,7 @@ const Table = ({ headers = [], data = [], rowKey = "id" }) => {
   return (
     <div className="w-full bg-white">
       <div
-        className="grid bg-gray-200 rounded-xl px-6 py-3 text-sm font-bold text-header-black"
+        className="grid bg-header-gray rounded-xl px-6 pt-4 pb-[13px] text-sm font-bold text-header-black"
         style={{ gridTemplateColumns: `repeat(${headers.length}, minmax(0, 1fr))` }}
       >
         {headers.map((header) => (
@@ -19,7 +19,7 @@ const Table = ({ headers = [], data = [], rowKey = "id" }) => {
       {data.map((row, index) => (
         <div
           key={row[rowKey] ?? index}
-          className="grid items-center px-6 py-4 text-sm text-gray-700"
+          className="grid items-center border-b-[0.4px] border-[#979797]/40 px-6 py-4 text-sm text-header-black/80 font-semibold"
           style={{ gridTemplateColumns: `repeat(${headers.length}, minmax(0, 1fr))` }}
         >
           {headers.map((header) => (

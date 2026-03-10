@@ -15,9 +15,9 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-[15.7299%] max-h-screen no-scrollbar overflow-y-auto bg-white flex flex-col font-semibold nunito-font">
+    <div className="w-[15.7299%] sticky top-0 h-screen no-scrollbar overflow-y-auto bg-white flex flex-col font-semibold nunito-font">
       <div className="pt-6 pl-[66px]">
-        <img src="/images/dashtack.png" alt="Dashtack" />
+        <img src="/images/dashtack.png" className="cursor-pointer" alt="Dashtack" />
       </div>
 
       {SIDEBAR_SECTIONS.map((section, sectionIndex) => (

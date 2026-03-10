@@ -48,5 +48,48 @@ export const monthOptions = [
   { name: "December" },
 ];
 
+export const dashboardCard = [
+  {
+    heading: "total user",
+    icon: "users",
+    iconColor: "",
+    iconBgColor: "rgba(130, 128, 255, 0.3)",
+    count: "40,689",
+    up: true,
+    percent: "8.5",
+    footer: "Up from yesterday",
+  },
+  {
+    heading: "total order",
+    icon: "box",
+    iconColor: "",
+    iconBgColor: "rgba(254, 197, 61, 0.3)",
+    count: "10,293",
+    up: true,
+    percent: "1.3",
+    footer: "Up from past week",
+  },
+  {
+    heading: "total sales",
+    icon: "graph",
+    iconColor: "",
+    iconBgColor: "rgba(74, 217, 145, 0.3)",
+    count: "$89,000",
+    up: false,
+    percent: "4.3",
+    footer: "Down from yesterday",
+  },
+  {
+    heading: "total pending",
+    icon: "timer",
+    iconColor: "",
+    iconBgColor: "rgba(255, 144, 102, 0.3)",
+    count: "2,040",
+    up: false,
+    percent: "1.8",
+    footer: "Up from yesterday",
+  },
+];
+
 export const AUTH_SESSION_KEY = "auth_session";
 export const DARK_MODE_KEY = "dark_mode_enabled";

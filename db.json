@@ -1,28 +1,190 @@
 {
   "data": [],
+  "favourites": [
+    {
+      "id": "2",
+      "productId": 2,
+      "name": "Apple Watch Series 5",
+      "price": 150,
+      "rating": 5,
+      "reviews": 98,
+      "images": [
+        "/images/watch.jpeg",
+        "/images/watch.jpeg"
+      ]
+    },
+    {
+      "id": "3",
+      "productId": 3,
+      "name": "Apple Watch Series 5",
+      "price": 150,
+      "rating": 5,
+      "reviews": 98,
+      "images": [
+        "/images/watch.jpeg",
+        "/images/watch.jpeg"
+      ]
+    }
+  ],
+  "dashboard": [
+    {
+      "id": "c580",
+      "month": "January",
+      "chartData": [
+        {
+          "name": "5k",
+          "value": 44
+        },
+        {
+          "name": "10k",
+          "value": 69
+        },
+        {
+          "name": "15k",
+          "value": 87
+        },
+        {
+          "name": "20k",
+          "value": 74
+        },
+        {
+          "name": "25k",
+          "value": 25
+        },
+        {
+          "name": "30k",
+          "value": 46
+        },
+        {
+          "name": "35k",
+          "value": 59
+        },
+        {
+          "name": "40k",
+          "value": 71
+        },
+        {
+          "name": "45k",
+          "value": 37
+        },
+        {
+          "name": "50k",
+          "value": 30
+        },
+        {
+          "name": "55k",
+          "value": 75
+        },
+        {
+          "name": "60k",
+          "value": 84
+        }
+      ],
+      "tableData": [
+        {
+          "id": "bhavya99044",
+          "product": "Apple Watch",
+          "image": "/images/apple-watch.png",
+          "location": "6096 Marjolaine Landing",
+          "dateTime": "12.09.2026 - 12.53 PM",
+          "piece": 423,
+          "amount": "$34,295",
+          "status": "Delivered",
+          "statusClassName": "bg-emerald-500"
+        }
+      ]
+    },
+    {
+      "id": "ff13",
+      "month": "February",
+      "chartData": [
+        {
+          "name": "5k",
+          "value": 82
+        },
+        {
+          "name": "10k",
+          "value": 23
+        },
+        {
+          "name": "15k",
+          "value": 20
+        },
+        {
+          "name": "20k",
+          "value": 69
+        },
+        {
+          "name": "25k",
+          "value": 57
+        },
+        {
+          "name": "30k",
+          "value": 69
+        },
+        {
+          "name": "35k",
+          "value": 41
+        },
+        {
+          "name": "40k",
+          "value": 20
+        },
+        {
+          "name": "45k",
+          "value": 90
+        },
+        {
+          "name": "50k",
+          "value": 76
+        },
+        {
+          "name": "55k",
+          "value": 60
+        },
+        {
+          "name": "60k",
+          "value": 52
+        }
+      ],
+      "tableData": [
+        {
+          "id": "bhavya99044",
+          "product": "Apple Watch",
+          "image": "/images/apple-watch.png",
+          "location": "6096 Marjolaine Landing",
+          "dateTime": "12.09.2026 - 12.53 PM",
+          "piece": 423,
+          "amount": "$34,295",
+          "status": "Delivered",
+          "statusClassName": "bg-emerald-500"
+        }
+      ]
+    }
+  ],
   "languages": [
     {
-      "id": 1,
+      "id": "1",
       "name": "English",
       "image": "uk-flag.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Hindi",
       "image": "uk-flag.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Marathi",
       "image": "uk-flag.png"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Gujarat",
       "image": "uk-flag.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Hindi",
       "image": "uk-flag.png"
     }

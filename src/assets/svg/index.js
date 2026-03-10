@@ -15,27 +15,31 @@ import Users from '../../assets/svg/users.svg';
 import Timer from '../../assets/svg/timer.svg';
 import Graph from '../../assets/svg/graph.svg';
 import RedArrow from '../../assets/svg/red-arrow.svg';
+import LeftArrow from '../../assets/svg/left-arrow.svg';
 import GreenArrow from '../../assets/svg/green-arrow.svg';
+import RightArrow from '../../assets/svg/right-arrow.svg';
 
 const icons={
+  'box':Box,
   'eye':Eye,
   'user':User,
   'bell':Bell,
   'apple':Apple,
+  'graph':Graph,
+  'users':Users,
+  'timer':Timer,
   'search':Search,
   'google':Google,
   'left-arrow':Left,
   'password':Password,
   'mail-icon':MailBox,
   'drop-down':DropDown,
-  'close-eye':CloseEye,
-  'circle-down':CircleDown,
-  'graph':Graph,
-  'users':Users,
-  'timer':Timer,
-  'box':Box,
   'red-arrow':RedArrow,
-  'green-arrow':GreenArrow
+  'close-eye':CloseEye,
+  'green-arrow':GreenArrow,
+  'circle-down':CircleDown,
+  'left-arrow-swiper':LeftArrow,
+  'right-arrow-swiper':RightArrow,
 }
 
 export default icons;
