@@ -1,0 +1,6 @@
+const validationTexts = {
+  required: "This field is required",
+  invalidPassword:"Incorrect password. Please try again."
+};
+
+export { validationTexts };

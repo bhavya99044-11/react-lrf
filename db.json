@@ -1,0 +1,111 @@
+{
+  "data": [],
+  "languages": [
+    {
+      "id": 1,
+      "name": "English",
+      "image": "uk-flag.png"
+    },
+    {
+      "id": 2,
+      "name": "Hindi",
+      "image": "uk-flag.png"
+    },
+    {
+      "id": 3,
+      "name": "Marathi",
+      "image": "uk-flag.png"
+    },
+    {
+      "id": 4,
+      "name": "Gujarat",
+      "image": "uk-flag.png"
+    },
+    {
+      "id": 5,
+      "name": "Hindi",
+      "image": "uk-flag.png"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "bhavya",
+      "email": "bhavya@gmail.com",
+      "password": "990441"
+    },
+    {
+      "id": "9ab8",
+      "name": "bhavya",
+      "email": "bhavya99044@gmail.com",
+      "password": "boss99044"
+    },
+    {
+      "id": "e6f8",
+      "name": "the",
+      "email": "vimal@gmai.com",
+      "password": "990444"
+    },
+    {
+      "id": "b3a2",
+      "name": "ssss",
+      "email": "sssss",
+      "password": "sss"
+    },
+    {
+      "id": "b6a2",
+      "name": "n",
+      "email": "u",
+      "password": "s"
+    },
+    {
+      "id": "751c",
+      "name": "ss",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "2c0a",
+      "name": "",
+      "email": "   ",
+      "password": "   "
+    },
+    {
+      "id": "31d6",
+      "name": "    ",
+      "email": "  fhgfggd",
+      "password": "dsadas"
+    },
+    {
+      "id": "ed37",
+      "name": "    sdfs",
+      "email": "hajasd adhjskdhsjk",
+      "password": ""
+    },
+    {
+      "id": "b1ab",
+      "name": "asdas",
+      "email": "asdas",
+      "password": "dsa"
+    },
+    {
+      "id": "adfd",
+      "name": "asda",
+      "email": "sda",
+      "password": "sadas"
+    },
+    {
+      "id": "9152",
+      "name": "x",
+      "email": "sd",
+      "password": ""
+    },
+    {
+      "id": "9e23",
+      "name": "fg",
+      "email": "dg",
+      "password": "dfg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

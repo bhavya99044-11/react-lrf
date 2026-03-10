@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "@fontsource/geist-sans/index.css";
+@import "@fontsource/geist-mono/index.css";
+@import "@fontsource/nunito-sans";
+@import "@fontsource/nunito-sans/400.css";
+@import "@fontsource/nunito-sans/700.css"; 
+@import "@fontsource/nunito-sans/600.css"; 
+@import 'react-loading-skeleton/dist/skeleton.css';
+@import "react-toastify/dist/ReactToastify.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.geist-font{
+  font-family: 'Geist Sans', sans-serif;
+}
+
+.nunito-font {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+@theme{
+    --color-primary: #5954E6;
+    --color-secondary: #4880FF;
+    --text-heading: 28px;
+    --color-light-gray: #868E96;  
+    --color-border-gray: #E9ECEF;
+}
+
+:root {
+  --auth-form-width: 480px;
+  --auth-section-gap: 24px;
+  --auth-subtext-tracking: -0.33px;
+}
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: var(--auth-section-gap);
+}
+
+.auth-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--auth-section-gap);
+}
+
+.auth-input-width {
+  width: var(--auth-form-width);
+}
+
+.auth-subtext {
+  width: fit-content;
+  letter-spacing: var(--auth-subtext-tracking);
+}
+
+
+
+.dashboard.active .sidemenu{
+  background-color: #4880FF;
+  color: white;
+}
+
+.dashboard.active .leftbar{
+  background-color: #4880FF;
+}
+
+ .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
